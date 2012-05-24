@@ -1,0 +1,16 @@
+e file_1
+,x/\n\n+/ c/\n\n/
+,y/\n\n/ x/ *\n/ c/ /
+,y/\n\n+/ x/[.!?] / s/ /\n/
+w file_1_pp
+e file_2
+,x/\n\n+/ c/\n\n/
+,y/\n\n/ x/ *\n/ c/ /
+,y/\n\n+/ x/[.!?] / s/ /\n/
+w file_2_pp
+,<diff file_1_pp file_2_pp
+,p
+w file_pp_diff
+q
+q
+
